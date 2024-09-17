@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PrimeView Services</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>PrimeView Services</h1>
+        <nav>
+            <ul>
+                <li><a href="#services">Serviços</a></li>
+                <li><a href="#about">Sobre Nós</a></li>
+                <li><a href="#contact">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section id="hero">
+        <h2>Excellence in Every Pane</h2>
+        <p>Lavagem de janelas, pintura de decks e lavagem de casas</p>
+        <a href="#contact" class="cta">Obtenha um Orçamento</a>
+    </section>
+    <section id="services">
+        <h2>Nossos Serviços</h2>
+        <div class="service">
+            <h3>Lavagem de Janelas</h3>
+            <p>Descrição do serviço de lavagem de janelas...</p>
+        </div>
+        <div class="service">
+            <h3>Pintura de Decks</h3>
+            <p>Descrição do serviço de pintura de decks...</p>
+        </div>
+        <div class="service">
+            <h3>Lavagem de Casas</h3>
+            <p>Descrição do serviço de lavagem de casas...</p>
+        </div>
+    </section>
+    <section id="about">
+        <h2>Sobre Nós</h2>
+        <p>Descrição sobre a empresa, missão e valores...</p>
+    </section>
+    <section id="testimonials">
+        <h2>Depoimentos</h2>
+        <blockquote>
+            <p>"Serviço excelente e atencioso!"</p>
+            <cite>- Cliente Satisfeito</cite>
+        </blockquote>
+    </section>
+    <section id="contact">
+        <h2>Contato</h2>
+        <form action="submit_form.php" method="post">
+            <label for="name">Nome:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">E-mail:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="message">Mensagem:</label>
+            <textarea id="message" name="message" required></textarea>
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+    <footer>
+        <p>&copy; 2024 PrimeView Services. Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>
